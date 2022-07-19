@@ -1,0 +1,39 @@
+*{
+      margin: 0;     
+    }
+    
+    .container{
+      background-color: #141414;
+      width: 100%;
+      height: 100vh;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      
+    }
+    
+    .container__title{
+      color: #ffffff;
+    }
+    
+    .container__numero{
+      font-size: 4rem;
+      color: #ffffff;
+    }
+    
+    .container__button{
+      background-color: #fdfdfd;
+      margin: 1em ;
+      border: 1px solid #ffffff;
+      cursor: pointer;
+      border-radius: 0.5em;
+    }
+    
+    :hover.container__button{
+      background-color: #000000;
+      color: #ffffff;
+      box-shadow: 3px 0 3px 1px rgb(255, 255, 255);
+    }
+    
+    
